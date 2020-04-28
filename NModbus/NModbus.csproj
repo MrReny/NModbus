@@ -10,7 +10,7 @@
     <PackageId>NModbus</PackageId>
     <PackageTags>modbus;nmodbus;tcp;udp;master;slave;coreclr</PackageTags>
     <PackageProjectUrl>https://github.com/NModbus/NModbus</PackageProjectUrl>
-    <PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard1.3' ">1.6.0</NetStandardImplicitPackageVersion>
     <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
@@ -24,6 +24,8 @@
 	<NoWarn>1701;1702;1705;1591</NoWarn>
 	<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
 	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<AssemblyVersion>1.0</AssemblyVersion>
+	<FileVersion>1.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'net45' ">
