@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Programing\NModbus" t="IncludeFlat">
+      <e p=".travis.yml" t="Include" />
+      <e p="appveyor.yml" t="Include" />
+      <e p="NModbus" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Data" t="Include">
+          <e p="DefaultPointSource.cs" t="Include" />
+          <e p="DefaultSlaveDataStore.cs" t="Include" />
+          <e p="DiscreteCollection.cs" t="Include" />
+          <e p="FileRecordCollection.cs" t="Include" />
+          <e p="IModbusMessageDataCollection.cs" t="Include" />
+          <e p="PointSource.cs" t="Include" />
+          <e p="Properties" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+          </e>
+          <e p="RegisterCollection.cs" t="Include" />
+          <e p="SlaveDataStore.cs" t="Include" />
+        </e>
+        <e p="Device" t="Include">
+          <e p="ConcurrentModbusMaster.cs" t="Include" />
+          <e p="GenericPointEventArgs.cs" t="Include" />
+          <e p="MessageHandlers" t="Include">
+            <e p="DiagnosticsService.cs" t="Include" />
+            <e p="ReadCoilsService.cs" t="Include" />
+            <e p="ReadHoldingRegistersService.cs" t="Include" />
+            <e p="ReadInputRegistersService.cs" t="Include" />
+            <e p="ReadInputsService.cs" t="Include" />
+            <e p="ReadWriteMultipleRegistersService.cs" t="Include" />
+            <e p="WriteFileRecordService.cs" t="Include" />
+            <e p="WriteMultipleCoilsService.cs" t="Include" />
+            <e p="WriteMultipleRegistersService.cs" t="Include" />
+            <e p="WriteSingleCoilService.cs" t="Include" />
+            <e p="WriteSingleRegisterService.cs" t="Include" />
+          </e>
+          <e p="ModbusDevice.cs" t="Include" />
+          <e p="ModbusFunctionServiceBase.cs" t="Include" />
+          <e p="ModbusIpMaster.cs" t="Include" />
+          <e p="ModbusMaster.cs" t="Include" />
+          <e p="ModbusMasterTcpConnection.cs" t="Include" />
+          <e p="ModbusSerialMaster.cs" t="Include" />
+          <e p="ModbusSerialSlaveNetwork.cs" t="Include" />
+          <e p="ModbusSlave.cs" t="Include" />
+          <e p="ModbusSlaveNetwork.cs" t="Include" />
+          <e p="ModbusTcpSlaveNetwork.cs" t="Include" />
+          <e p="ModbusUdpSlaveNetwork.cs" t="Include" />
+          <e p="PointEventArgs.cs" t="Include" />
+          <e p="TcpConnectionEventArgs.cs" t="Include" />
+        </e>
+        <e p="Extensions" t="Include">
+          <e p="CrcExtensions.cs" t="Include" />
+          <e p="DictionaryExtensions.cs" t="Include" />
+          <e p="Enron" t="Include">
+            <e p="EnronModbus.cs" t="Include" />
+          </e>
+          <e p="Functions" t="Include">
+            <e p="Endian.cs" t="Include" />
+            <e p="RegisterFunctions.cs" t="Include" />
+          </e>
+          <e p="ModbusFactoryExtensions.cs" t="Include" />
+          <e p="ModbusMasterEnhanced.cs" t="Include" />
+        </e>
+        <e p="FactoryExtensions.cs" t="Include" />
+        <e p="GlobalSuppressions.cs" t="Include" />
+        <e p="Interfaces" t="Include">
+          <e p="IConcurrentModbusMaster.cs" t="Include" />
+          <e p="IModbusAsciiTransport.cs" t="Include" />
+          <e p="IModbusFactory.cs" t="Include" />
+          <e p="IModbusFunctionService.cs" t="Include" />
+          <e p="IModbusLogger.cs" t="Include" />
+          <e p="IModbusMaster.cs" t="Include" />
+          <e p="IModbusMessage.cs" t="Include" />
+          <e p="IModbusRtuTransport.cs" t="Include" />
+          <e p="IModbusSerialMaster.cs" t="Include" />
+          <e p="IModbusSerialTransport.cs" t="Include" />
+          <e p="IModbusSlave.cs" t="Include" />
+          <e p="IModbusSlaveNetwork.cs" t="Include" />
+          <e p="IModbusTransport.cs" t="Include" />
+          <e p="IPointSource.cs" t="Include" />
+          <e p="ISlaveDataStore.cs" t="Include" />
+          <e p="ISlaveHandlerContext.cs" t="Include" />
+          <e p="LoggingLevel.cs" t="Include" />
+        </e>
+        <e p="InvalidModbusRequestException.cs" t="Include" />
+        <e p="IO" t="Include">
+          <e p="EmptyTransport.cs" t="Include" />
+          <e p="IStreamResource.cs" t="Include" />
+          <e p="ModbusAsciiTransport.cs" t="Include" />
+          <e p="ModbusIpTransport.cs" t="Include" />
+          <e p="ModbusRtuTransport.cs" t="Include" />
+          <e p="ModbusSerialTransport.cs" t="Include" />
+          <e p="ModbusTransport.cs" t="Include" />
+          <e p="StreamResourceUtility.cs" t="Include" />
+          <e p="TcpClientAdapter.cs" t="Include" />
+          <e p="UdpClientAdapter.cs" t="Include" />
+        </e>
+        <e p="Logging" t="Include">
+          <e p="ConsoleModbusLogger.cs" t="Include" />
+          <e p="DebugModbusLogger.cs" t="Include" />
+          <e p="LoggingExtensions.cs" t="Include" />
+          <e p="ModbusLogger.cs" t="Include" />
+          <e p="NullModbusLogger.cs" t="Include" />
+          <e p="TraceModbusLogger.cs" t="Include" />
+        </e>
+        <e p="Message" t="Include">
+          <e p="AbstractModbusMessage.cs" t="Include" />
+          <e p="AbstractModbusMessageWithData.cs" t="Include" />
+          <e p="DiagnosticsRequestResponse.cs" t="Include" />
+          <e p="IModbusRequest.cs" t="Include" />
+          <e p="ModbusMessageFactory.cs" t="Include" />
+          <e p="ModbusMessageImpl.cs" t="Include" />
+          <e p="ReadCoilsInputsRequest.cs" t="Include" />
+          <e p="ReadCoilsInputsResponse.cs" t="Include" />
+          <e p="ReadHoldingInputRegistersRequest.cs" t="Include" />
+          <e p="ReadHoldingInputRegistersResponse.cs" t="Include" />
+          <e p="ReadWriteMultipleRegistersRequest.cs" t="Include" />
+          <e p="SlaveExceptionResponse.cs" t="Include" />
+          <e p="WriteFileRecordRequest.cs" t="Include" />
+          <e p="WriteFileRecordResponse.cs" t="Include" />
+          <e p="WriteMultipleCoilsRequest.cs" t="Include" />
+          <e p="WriteMultipleCoilsResponse.cs" t="Include" />
+          <e p="WriteMultipleRegistersRequest.cs" t="Include" />
+          <e p="WriteMultipleRegistersResponse.cs" t="Include" />
+          <e p="WriteSingleCoilRequestResponse.cs" t="Include" />
+          <e p="WriteSingleRegisterRequestResponse.cs" t="Include" />
+        </e>
+        <e p="Modbus.cs" t="Include" />
+        <e p="ModbusFactory.cs" t="Include" />
+        <e p="ModbusFunctionCodes.cs" t="Include" />
+        <e p="NModbus.csproj" t="IncludeRecursive" />
+        <e p="NModbus.csproj.DotSettings" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net45" t="Include">
+              <e p="NModbus.AssemblyInfo.cs" t="Include" />
+            </e>
+            <e p="net46" t="Include">
+              <e p="NModbus.AssemblyInfo.cs" t="Include" />
+            </e>
+            <e p="netstandard1.3" t="Include">
+              <e p="NModbus.AssemblyInfo.cs" t="Include" />
+            </e>
+            <e p="netstandard2.0" t="Include">
+              <e p="NModbus.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Resources.cs" t="Include" />
+        <e p="SlaveException.cs" t="Include" />
+        <e p="SlaveExceptionCodes.cs" t="Include" />
+        <e p="Unme.Common" t="Include">
+          <e p="DisposableUtility.cs" t="Include" />
+          <e p="SequenceUtility.cs" t="Include" />
+        </e>
+        <e p="Utility" t="Include">
+          <e p="DiscriminatedUnion.cs" t="Include" />
+          <e p="ModbusUtility.cs" t="Include" />
+        </e>
+      </e>
+      <e p="NModbus.Serial" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="docfx.json" t="Include" />
+        <e p="ModbusFactoryExtensions.cs" t="Include" />
+        <e p="NModbus.Serial.csproj" t="IncludeRecursive" />
+        <e p="NModbus.Serial.nuspec" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net46" t="Include">
+              <e p="NModbus.Serial.AssemblyInfo.cs" t="Include" />
+            </e>
+            <e p="netstandard2.0" t="Include">
+              <e p="NModbus.Serial.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="SerialPortAdapter.cs" t="Include" />
+      </e>
+      <e p="NModbus.SerialPortStream" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="NModbus.SerialPortStream.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net46" t="Include">
+              <e p="NModbus.SerialPortStream.AssemblyInfo.cs" t="Include" />
+            </e>
+            <e p="netstandard1.5" t="Include">
+              <e p="NModbus.SerialPortStream.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="SerialPortStreamAdapter.cs" t="Include" />
+      </e>
+      <e p="NModbus.sln" t="IncludeFlat" />
+      <e p="NModbus.UnitTests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Data" t="Include">
+          <e p="DefaultPointSourceFixture.cs" t="Include" />
+          <e p="DiscreteCollectionFixture.cs" t="Include" />
+          <e p="FileRecordCollectionFixture.cs" t="Include" />
+          <e p="RegisterCollectionFixture.cs" t="Include" />
+        </e>
+        <e p="Device" t="Include">
+          <e p="MessageHandlers" t="Include">
+            <e p="WriteFileRecordServiceFixture.cs" t="Include" />
+          </e>
+          <e p="ModbusMasterFixture.cs" t="Include" />
+          <e p="ModbusSlaveFixture.cs" t="Include" />
+          <e p="TcpConnectionEventArgsFixture.cs" t="Include" />
+        </e>
+        <e p="InvalidModbusRequestExceptionFixture.cs" t="Include" />
+        <e p="IO" t="Include">
+          <e p="EmptyTransportFixture.cs" t="Include" />
+          <e p="ModbusAsciiTransportFixture.cs" t="Include" />
+          <e p="ModbusRtuTransportFixture.cs" t="Include" />
+          <e p="ModbusSerialTransportFixture.cs" t="Include" />
+          <e p="ModbusTcpTransportFixture.cs" t="Include" />
+          <e p="ModbusTransportFixture.cs" t="Include" />
+          <e p="UdpClientAdapterFixture.cs" t="Include" />
+        </e>
+        <e p="Message" t="Include">
+          <e p="DiagnosticsRequestResponseFixture.cs" t="Include" />
+          <e p="MessageUtility.cs" t="Include" />
+          <e p="ModbusMessageFactoryFixture.cs" t="Include" />
+          <e p="ModbusMessageFixture.cs" t="Include" />
+          <e p="ModbusMessageImplFixture.cs" t="Include" />
+          <e p="ModbusMessageWithDataFixture.cs" t="Include" />
+          <e p="ReadCoilsInputsRequestFixture.cs" t="Include" />
+          <e p="ReadCoilsInputsResponseFixture.cs" t="Include" />
+          <e p="ReadFileRecordRequestFixture.cs" t="Include" />
+          <e p="ReadFileRecordResponseFixture.cs" t="Include" />
+          <e p="ReadHoldingInputRegistersRequestFixture.cs" t="Include" />
+          <e p="ReadHoldingInputRegistersResponseFixture.cs" t="Include" />
+          <e p="ReadWriteMultipleRegistersRequestFixture.cs" t="Include" />
+          <e p="ReturnQueryDataRequestResponseFixture.cs" t="Include" />
+          <e p="SlaveExceptionResponseFixture.cs" t="Include" />
+          <e p="WriteMultipleCoilsRequestFixture.cs" t="Include" />
+          <e p="WriteMultipleCoilsResponseFixture.cs" t="Include" />
+          <e p="WriteMultipleRegistersRequestFixture.cs" t="Include" />
+          <e p="WriteMultipleRegistersResponseFixture.cs" t="Include" />
+          <e p="WriteSingleCoilRequestResponseFixture.cs" t="Include" />
+          <e p="WriteSingleRegisterRequestResponseFixture.cs" t="Include" />
+        </e>
+        <e p="NModbus.UnitTests.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard1.5" t="Include">
+              <e p="NModbus.UnitTests.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="SlaveExceptionFixture.cs" t="Include" />
+        <e p="Utility" t="Include">
+          <e p="CollectionUtilityFixture.cs" t="Include" />
+          <e p="DiscriminatedUnionFixture.cs" t="Include" />
+          <e p="ModbusUtilityFixture.cs" t="Include" />
+        </e>
+      </e>
+      <e p="NuGet.config" t="Include" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="README.md" t="Include" />
+      <e p="Solution Items" t="Include" />
+    </e>
+    <e p="C:\Users\Reny\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Reny\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_NModbus.425936215.00" t="ExcludeRecursive" />
+  </component>
+</project>
